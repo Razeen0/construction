@@ -10,7 +10,10 @@ function Hero() {
 
       <div className="bg-black/60 w-full h-full flex items-center">
 
-        <div className="max-w-7xl mx-auto px-4 text-white">
+        <div
+          className="max-w-7xl mx-auto px-4 text-white"
+          data-aos="fade-up"
+        >
 
           <h1 className="text-5xl md:text-7xl font-bold max-w-3xl leading-tight">
             Building Your Dream Projects
@@ -21,7 +24,7 @@ function Hero() {
             quality and trusted engineering excellence.
           </p>
 
-          <button className="mt-8 bg-yellow-400 text-black px-8 py-4 rounded-xl font-semibold hover:bg-yellow-300 transition">
+          <button className="mt-8 bg-yellow-400 text-black px-8 py-4 rounded-xl font-semibold hover:bg-yellow-300 hover:scale-105 transition duration-300">
             Get Started
           </button>
 

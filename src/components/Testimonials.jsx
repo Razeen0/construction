@@ -21,7 +21,10 @@ function Testimonials() {
   ]
 
   return (
-    <section className="py-20 bg-gray-100">
+    <section
+      className="py-20 bg-gray-100"
+      data-aos="fade-right"
+    >
 
       <div className="max-w-7xl mx-auto px-4">
 
@@ -47,7 +50,7 @@ function Testimonials() {
             >
 
               <p className="text-gray-600 leading-relaxed mb-6">
-                "{item.review}"
+                \"{item.review}\"
               </p>
 
               <h3 className="text-xl font-bold">

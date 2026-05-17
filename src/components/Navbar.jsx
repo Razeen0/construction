@@ -18,15 +18,40 @@ function Navbar() {
 
         <div className="hidden md:flex gap-8">
 
-          <Link to="/">Home</Link>
+          <Link
+            to="/"
+            className="hover:text-yellow-400 transition duration-300"
+          >
+            Home
+          </Link>
 
-          <Link to="/about">About</Link>
+          <Link
+            to="/about"
+            className="hover:text-yellow-400 transition duration-300"
+          >
+            About
+          </Link>
 
-          <Link to="/services">Services</Link>
+          <Link
+            to="/services"
+            className="hover:text-yellow-400 transition duration-300"
+          >
+            Services
+          </Link>
 
-          <Link to="/projects">Projects</Link>
+          <Link
+            to="/projects"
+            className="hover:text-yellow-400 transition duration-300"
+          >
+            Projects
+          </Link>
 
-          <Link to="/contact">Contact</Link>
+          <Link
+            to="/contact"
+            className="hover:text-yellow-400 transition duration-300"
+          >
+            Contact
+          </Link>
 
         </div>
 

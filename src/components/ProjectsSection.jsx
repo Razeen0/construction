@@ -32,7 +32,10 @@ function ProjectsSection() {
   ]
 
   return (
-    <section className="py-20">
+    <section
+      className="py-20"
+      data-aos="zoom-in"
+    >
 
       <div className="max-w-7xl mx-auto px-4">
 
